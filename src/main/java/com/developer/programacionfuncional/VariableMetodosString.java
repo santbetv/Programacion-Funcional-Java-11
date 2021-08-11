@@ -5,7 +5,6 @@
  */
 package com.developer.programacionfuncional;
 
-import java.util.Collections;
 import java.util.stream.Collectors;
 
 /**
@@ -29,7 +28,7 @@ public class VariableMetodosString {
     }
 
     //Metodo lines() nuevo elemento que permite apartir de una cadena "1,2,3,4" esto lo pasa a una lista
-    public void cinvertirLista(String texto) {
+    public void convertirLista(String texto) {
         System.out.println(texto.lines().collect(Collectors.toList()));
     }
 
@@ -43,8 +42,12 @@ public class VariableMetodosString {
 
     public static void main(String[] args) {
 
-        VariableMetodosString variables = new VariableMetodosString();
-        variables.repetir("Hola", 3);
+        VariableMetodosString elementos = new VariableMetodosString();
+        elementos.estaVacio("");
+        elementos.repetir("repite", 3);
+        elementos.convertirLista("1,2,3,4");
+        elementos.removerEspacios(" Hola ");
+        elementos.removerEspacios("\n\t Hola \u2005");
 
     }
 
