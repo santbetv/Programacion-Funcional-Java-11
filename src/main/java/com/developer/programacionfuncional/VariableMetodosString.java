@@ -9,7 +9,7 @@ package com.developer.programacionfuncional;
  *
  * @author rizzoli
  */
-public class Variables {
+public class VariableMetodosString {
 
     public void repetir(String texto, int Cantidad) {
         var reptido = texto.repeat(Cantidad);
@@ -18,7 +18,7 @@ public class Variables {
 
     public static void main(String[] args) {
 
-        Variables variables = new Variables();
+        VariableMetodosString variables = new VariableMetodosString();
         variables.repetir("Hola", 3);
 
     }
