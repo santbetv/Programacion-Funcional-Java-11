@@ -18,8 +18,8 @@ public class VariableMetodosString {
         System.out.println(texto.isBlank());
     }
 
-    //Variables tipo var nuevo elemento
-    //metodo repeat) nuevo elemento
+    //Variables tipo var nuevo elemento desde java 10 
+    //metodo repeat() nuevo elemento
     public void repetir(String texto, int Cantidad) {
         var reptidos = 0;
         var reptid = true;
