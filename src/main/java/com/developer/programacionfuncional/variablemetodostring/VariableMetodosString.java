@@ -5,6 +5,7 @@
  */
 package com.developer.programacionfuncional.variablemetodostring;
 
+import java.util.ArrayList;
 import java.util.stream.Collectors;
 
 /**
@@ -24,6 +25,7 @@ public class VariableMetodosString {
         var reptidos = 0;
         var reptid = true;
         var reptido = texto.repeat(Cantidad);
+        var datos = new ArrayList<Object>();
         System.out.println(reptido);
     }
 
