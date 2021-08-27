@@ -24,7 +24,9 @@ public class ClaseValidadoraDeInterfaces implements IValidando3 {
         System.out.println(claseValidadoraDeInterfaces.validaEnCalseNormalPeroConPortamientoDeInterface1());
         System.out.println(claseValidadoraDeInterfaces.validaEnCalseNormalPeroConPortamientoDeInterface2());
         
-        
+        //Se realiza validacion de metodos static desde interface
+        //Se maneja llamando desde interface
+        System.out.println(IValidandoStatic.validando());
         
     }
 
