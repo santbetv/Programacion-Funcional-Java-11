@@ -14,8 +14,8 @@ public class ValoresPorEnum {
     public enum Dias {
         LUNES(10), MARTES(20), MIERCOLES(30);
         int data;
-        private Dias(int dato) {
-            data=dato;
+        private Dias(int datos) {
+            data=datos;
         }
     }
     
